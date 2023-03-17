@@ -8,7 +8,7 @@ use Test\Routing\Contracts\Controller;
 class CopyController extends Controller
 {
     #[Route(path: '/copy')]
-    public function GetCopy(): void
+    public function getCopy(): void
     {
         echo 'Какой-то метод' . PHP_EOL;
     }
