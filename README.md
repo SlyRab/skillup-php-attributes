@@ -11,7 +11,7 @@
 `class CopyController extends Controller
 {}`
 
-2. Зарегестрировать контроллер в index.php<br>
+2. Зарегистрировать контроллер в index.php<br>
 `$router->addControllers([\Test\Routes\MainController::class, \Test\Routes\CopyController::class]);`
 3. Добавить в него публичные методы
 ```
