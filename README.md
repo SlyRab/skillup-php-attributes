@@ -12,7 +12,7 @@
 {}`
 
 2. Зарегистрировать контроллер в index.php<br>
-`$router->addControllers([\Test\Routes\MainController::class, \Test\Routes\CopyController::class]);`
+`$router->addControllers([\Test\Routes\MainController::class, \Test\Routes\CopyController::class]);`<br>
 3. Добавить в него публичные методы
 ```
 class CopyController extends Controller
