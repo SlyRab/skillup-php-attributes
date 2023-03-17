@@ -1,7 +1,9 @@
 # skilup-php
-Задание для skillup
 
+Задание для skillup
 Небольшой роутинг, основанный на атрибутах
+
+---
 
 Использование:
 1. Создать класс, наследник абстрактного Test/Routing/Controller
@@ -31,6 +33,8 @@ class CopyController extends Controller
 ```
 4. Проверить работу роутинга
 
+---
+
 Инструкция по запуску демо:
 1. Собрать autoload в композере
 
@@ -41,6 +45,8 @@ class CopyController extends Controller
 `docker-compose up`
 
 3. проверить работу роута на http://localhost
+
+---
 
 Как можно было улучшить:
 1. Добавить поддержку http методов
