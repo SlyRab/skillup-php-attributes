@@ -11,7 +11,9 @@
 `class CopyController extends Controller
 {}`
 
-2. Добавить в него публичные методы
+2. Зарегестрировать контроллер в index.php<br>
+`$router->addControllers([\Test\Routes\MainController::class, \Test\Routes\CopyController::class]);`
+3. Добавить в него публичные методы
 ```
 class CopyController extends Controller
 {
@@ -21,7 +23,7 @@ class CopyController extends Controller
 }
 ```
 
-3. Добавить методам аттрибут Route с параметром path
+4. Добавить методам аттрибут Route с параметром path
 ```
 class CopyController extends Controller
 {
@@ -31,7 +33,7 @@ class CopyController extends Controller
    }
 }
 ```
-4. Проверить работу роутинга
+5. Проверить работу роутинга
 
 ---
 
