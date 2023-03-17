@@ -35,9 +35,11 @@ class CopyController extends Controller
 1. Собрать autoload в композере
 
 `composer install`
+
 2. Запустить docker-compose up
 
 `docker-compose up`
+
 3. проверить работу роута на http://localhost
 
 Как можно было улучшить:
