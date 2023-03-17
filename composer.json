@@ -1,0 +1,20 @@
+{
+  "name": "neveruma/skillup-php-farm",
+  "description": "Симуляция жизни на ферме",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "achevordin",
+      "email": "a.chevordin@iqdev.digital"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Test\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  }
+}
